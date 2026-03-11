@@ -1,17 +1,18 @@
-from registro_de_ventas import registrar_ventas
-from calcular_total import calcular_total
-ventas = []
-continuar = "yes"
+from sales_registry import register_sales
+from calculate_total import calculate_total
+from summary import show_summary
+sales = []
+continue01 = "yes"
 
-while continuar == "yes":
-    producto, precio, cantidad = registrar_ventas()
+while continue01 == "yes":
+    product, price, amount = register_sales()
 
-    venta = {
-        "producto":producto,
-        "precio": precio,
-        "cantidad": cantidad,
+    sale = {
+        "producto":product,
+        "precio": price,
+        "amount": amount,
         }
-    ventas.append(venta)
-    continuar = input("desea registrar otra venta? (yes/not): ")
-total = calcular_total(ventas)
-print("Total recaudado:",  total)
+    sales.append(sale)
+    continue01 = input("Do you want to register another sale? (yes/no): ")
+total = calculate_total(sales)
+show_summary(sales,total)
