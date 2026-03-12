@@ -1,16 +1,13 @@
-# Registro-De-Ventas-Diarias-De-una-Tiendaa
-este programa fue creado para ayudar a lo que es la parte de adminastracion de una tienda a llevar el control de sus ventas diarias de forma automatica
+# Register-of-Daily-Sales-of-one-Shop
+this program was created to help the management part of a store to keep track of its daily sales automatically
 
-Que hace?
-El programa te pregunta primero para registrar, producto, precio y cuantas unidades vendiste para que al final te haga un resumen de ese producto al precio que vendiste y cuantas vendiste, ademas de mostrarte el recaudado total al final del dia
+What does it do?
+ The program first asks you to register the product, price and how many units you sold so that at the end it gives you a summary of that product at the price you sold and how many you sold, in addition to showing you the total collection at the end of the day
 
-como se usa?
-primero ingresas el nombre del producto, precio y cantidad vendida
-segundo el programa te va a pedir si quieres realizar otra venta o no
-tercero si presionas no automaticamente te va a soltar el resumen de los productos que hasta ahi haz registrado
+how is it used?
+ first you enter the name of the product, price and quantity sold second, the program will ask you if you want to make another sale or not third, if you press no, it will automatically release the summary of the products that you have registered up to that point
 
-Necesitas Ayuda?
-Si tienes alguna duda/problema usando el programa puedes escribirme a traves de GitHub
 
-Autores
-Creado por Cristian De La Hoz
+Need help? If you have any questions/problems using the program you can write to me through GitHub
+
+Authors Created by Cristian De La Hoz

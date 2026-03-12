@@ -8,8 +8,8 @@ while continue01 == "yes":
     product, price, amount = register_sales()
 
     sale = {
-        "producto":product,
-        "precio": price,
+        "product":product,
+        "price": price,
         "amount": amount,
         }
     sales.append(sale)
