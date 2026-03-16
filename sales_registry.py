@@ -1,4 +1,6 @@
-print("\nWelcome to store registration. ")
+print("╔══════════════════════════════════╗")
+print("║   Welcome to store registration  ║")
+print("╚══════════════════════════════════╝")
 def register_sales():
     product = input("\nEnter the product name: ")
     price = float(input("Enter the unit price of the product: "))
