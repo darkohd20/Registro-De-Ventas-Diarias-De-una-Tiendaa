@@ -1,6 +1,6 @@
 def show_summary(sales, total):
-    print("/nDAILY SALES SUMMARY")
+    print("\nDAILY SALES SUMMARY")
     for sale in sales:
-        print("product:", sale["product"])
+        print("\nproduct:", sale["product"])
         print("amount total sold:", sale["amount"])
-    print("Total raised:", total)
+    print("\nTotal raised:", total)
